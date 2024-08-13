@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* styles.css */
+
+/* Media query para telas entre 320px e 426px */
+@media (min-width: 320px) and (max-width: 426px) {
+    .text-custom-size {
+      font-size: 1rem; /* Ajusta o tamanho da fonte para a faixa de tela pequena */
+    }
+    .input-custom-size {
+      font-size: 1.25rem; /* Ajusta o tamanho da fonte do input */
+    }
+    .btn-custom-size {
+      font-size: 1.25rem; /* Ajusta o tamanho da fonte do botão */
+      padding: 0.75rem 1.5rem; /* Ajusta o padding do botão */
+    }
+  }
+  
